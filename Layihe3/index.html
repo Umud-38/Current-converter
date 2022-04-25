@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   <link rel="stylesheet" href="./style/reset.css">
+   <link rel="stylesheet" href="./style/style.css">
+   <link rel="stylesheet" href="./style/media.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Currency Converter</title>
+</head>
+
+<body>
+   <header>
+      <div class="container">
+         <div class="logo"><img src="Asset 1@3x 1.png" alt=""></div>
+         <ul>
+            <li class="active"><a href="#">БАНК</a></li>
+            <li><a href="#">БИЗНЕС</a></li>
+            <li><a href="#">ИНВЕСТИЦИИ</a></li>
+            <li><a href="#">СТРАХОВАНИЕ</a></li>
+            <li><a href="#">МОБАЙЛ</a></li>
+            <li><a href="#">ПУТЕШЕСТВИЯ</a></li>
+            <li><a href="#">РАЗВЛЕЧЕНИЯ</a></li>
+         </ul>
+         <div class="sign">ВОЙТИ</div>
+         <i class="hamburger fa fa-bars"></i>
+      </div>
+   </header>
+
+   <main>
+      <div class="container">
+         <h1>Конвертер валют онлайн</h1>
+         <div class="boxs">
+            <div class="box-left">
+               <h6>У меня есть </h6>
+               <ul class="currency">
+                  <li class="active">RUB</li>
+                  <li>USD</li>
+                  <li>EUR</li>
+                  <li>GBP</li>
+               </ul>
+               <div class="calc">
+                  <input class="money" type="text" value="100">
+                  <div class="const-money"></div>
+               </div>
+            </div>
+
+            <div class="box-right">
+               <h6>Хочу приобрести</h6>
+               <ul class="currency">
+                  <li>RUB</li>
+                  <li class="active">USD</li>
+                  <li>EUR</li>
+                  <li>GBP</li>
+               </ul>
+               <div class="calc">
+                  <input class="money" type="text">
+                  <div class="const-money"></div>
+               </div>
+            </div>   
+         </div>
+      </div>
+   </main>
+
+   <script src="./main.js"></script>
+</body>
+
+</html>
